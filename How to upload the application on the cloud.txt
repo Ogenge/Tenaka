@@ -1,0 +1,6 @@
+How will upload the app to aws
+
+1. SSH to the remote aws server or instance
+2. Install Node.js 
+3. Install git and then clone the preoject repository from github
+4. Start the node js application from the folder it has been cloned to.
