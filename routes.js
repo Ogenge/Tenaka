@@ -58,7 +58,7 @@ router.post("/studentreg",function(req,res){
             return res.json({"Stat":1,"Msg":"An error occurred!"})
         }
         res.json({"Stat": 0,"Msg":"User "+req.body.name+ " registered successfully","User":req.body.name})
-    })
+    });
 });
 
 //IQ questions 
