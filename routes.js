@@ -41,7 +41,7 @@ var pool=mysql.createPool(config.mysql);
 
 //all routes
 router.get("/",function(req,res){
-    res.render('register');
+    res.json({"msg":"Hello"});
 });
 
 //student registration
